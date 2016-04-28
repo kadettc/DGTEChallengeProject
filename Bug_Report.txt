@@ -1,0 +1,21 @@
+Bug Report for Fibonacci:
+
+Front End:
+Failed test cases:
+DGFibonacci_FrontEnd_morethanmaximum
+DGFibonacci_FrontEnd_negative
+DGFibonacci_FrontEnd_nonintnumber
+DGFibonacci_FrontEnd_nonnumeric
+DGFibonacci_FrontEnd_blank
+Notes:
+There was no error handling for any of the failed test cases. All failed cases did not have any 
+error message on the front end.
+
+Back End:
+Failed test cases: 
+DGFibonacci_BackEnd_accuracy
+Notes:
+1) The maximum fibonacci term that generated a value from the function does not equal the sum of the 2 previous terms.
+   The maximum accurate term was 71.
+2) Error handling does exist, however, error handling is limited to 4 responses which may limit
+the error handling messages for any front end program using this service.
